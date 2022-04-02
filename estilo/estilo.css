@@ -1,5 +1,20 @@
 @charset "UTF-8"
 
+@import url('https://fonts.googleapis.com/css2? family= Dongle:wght@300 & family= Lavishly+Yours & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Passion+One & display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Dongle', sem serifa;
+    --fonte3: 'Sriracha',;
+    --fonte4: 'Passion One', cursive;
+}
+
+/*'Dongle', sem serifa;*/
+
 {}
 
 *{
@@ -10,6 +25,7 @@
 html, body{
     min-height: 100vh;
     background-color: rgba(105, 105, 105, 0.562);
+    font-family: var(--fonte1);
 }
 
 header{
@@ -23,11 +39,15 @@ header > h1{
     text-align: center;
     font-variant: small-caps;
     padding-top: 25px;
+    font-family: var(--fonte4);
+    font-size: 6vw;
 }
 
 header > p{
+    font-family: var(--fonte3);
     text-align: center;
     padding-bottom: 25px;
+    font-size: 2.5vw;
 }
 
 a {
@@ -45,6 +65,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte4);
+    font-size: 2.5vw;
 }
 
 section.normal{
@@ -58,7 +80,8 @@ section.imagem{
 }
 
 section.imagem > p{
-    width: 400px;
+    display: inline-block;
+    padding: 7px;
     background-color: rgba(0, 0, 0, 0.185);
 }
 

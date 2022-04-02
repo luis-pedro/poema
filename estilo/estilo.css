@@ -2,6 +2,69 @@
 
 {}
 
-body{
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+html, body{
+    min-height: 100vh;
     background-color: rgba(105, 105, 105, 0.562);
+}
+
+header{
+    background-color: black;
+    color: white;
+    margin: 0px 0px 10px 0px;
+    padding: 5px;
+}
+
+header > h1{
+    text-align: center;
+    font-variant: small-caps;
+    padding-top: 25px;
+}
+
+header > p{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+section.imagem > p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7px;
 }

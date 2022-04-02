@@ -65,7 +65,7 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte4);
-    font-size: 3vw;
+    font-size: 4vw;
 }
 
 section.normal{
@@ -100,9 +100,19 @@ section#img02{
     background-position: center center;
 }
 
+div{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: rgba(202, 57, 57, 0.74);
+    text-align: center;
+    font-family: var(--fonte2);
+    font-size: 2.5vh;
+}
+
 footer{
     background-color: black;
     color: white;
     text-align: center;
     padding: 7px;
+    font-size: 2.5vh;
 }

@@ -1,3 +1,3 @@
 # poema
-Meu primeiro mini-projeto 
+Meu primeiro mini-projeto - 
 Esse foi um mini-projeto do curso de HTML e CSS do Curso em Vídeo destinado a criação de um poema responsivo
